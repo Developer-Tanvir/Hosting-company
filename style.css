@@ -1,0 +1,487 @@
+/* open sance font  */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+
+:root{
+    --primary-color:#6C41FF;
+    --header-color:#000000;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    font-size: 62.5%;
+}
+a{
+    text-decoration: none;
+    color: var(--header-color);
+    
+}
+.btn{
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: var(--primary-color);
+    border: none;
+    outline: none;
+}
+.btn-light{
+    border: 1px solid var(--primary-color);
+    background-color: #fff;
+    color: var(--primary-color);
+    margin-left: 0.9rem;
+}
+img{
+    max-width: 100%;
+}
+/* top header section design  */
+.top-header{
+    padding: 1rem 0;
+    align-items: center;
+    font-size: 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);;
+}
+.top-header i{
+    font-size: 1rem;
+    padding-right: 1rem;
+    color: var(--primary-color);
+}
+.top-header h4{
+    font-size: 1rem;
+}
+.email-box{
+    margin-right: 2rem;
+}
+/* top header section design end */
+
+/* main header section design  */
+
+.main-header .menu a{
+    margin-right: 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.logo img{
+    padding-right: 0.8rem;
+}
+.logo h2{
+    font-weight: 700;
+}
+
+/* main header section design end */
+
+
+/* hero section design  */
+.hero-section{
+    align-items: center;
+    
+}
+.hero-section h2{
+    font-size: 3rem;
+    font-weight: 400;
+
+}
+.hero-section p{
+    font-size: 1.4rem;
+
+}
+/* hero section design end */
+
+/* prevew section design  */
+.prevew-section h2{
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+.prevew-section p{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.fechar img{
+    background: var(--primary-color);
+    border-radius: 5px;
+    padding: 1rem;
+    
+}
+.fechar h3{
+    margin-top: 3rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.fechar p{
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+/* prevew section design end */
+
+/* pricing section design  */
+
+
+.pricing-section{
+    position: relative;
+    background: #F8F5FF;
+    
+}
+
+
+.pricing-section h2{
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+.pricing-section p{
+    font-size: 1.3rem;
+    width: 72%;
+    margin: auto;
+}
+.pricing-menu {
+    
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);;
+    max-width: 75%;
+    margin: auto;
+    padding-top: 10rem;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+}
+.items-border{
+    border-bottom: 1px solid var(--primary-color);
+    padding-bottom: 2rem;
+    
+    
+    
+}
+
+.pricing-menu h3{
+    
+    font-size: 1.3rem;
+    
+}
+/* pricing table  */
+
+.pricing-table{
+    gap: 3rem;
+    padding-top: 8rem;
+    position: relative;
+    z-index: 2;
+    
+    
+  
+  
+  
+}
+.pricing-table h3{
+    text-align: center;
+    font-weight: 700;
+    
+}
+.content{
+    padding: 2rem 2rem;
+    background: #fff;
+    border-radius: 1.5rem;
+}
+.text-top-bottom h2 {
+    font-size: 4.5rem;
+    font-weight: 400;
+}
+
+.pricing-table p{
+    padding-bottom: 1.5rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-align: center;
+}
+.pricing-table ul{
+    list-style: none;
+    padding-left: 0;
+}
+.pricing-table i{
+    color: var(--primary-color);
+    padding-right: 0.8rem;
+}
+.btn-3{
+    margin-top: 1rem;
+    width: 100%;
+}
+.btn-2{
+    margin-top: 3rem;
+    width: 100%;
+}
+.btn-1{
+    margin-top: 5rem;
+    width: 100%;
+}
+/* .pricing-table {
+    padding-top: 10rem;
+    max-width: 72%;
+    margin: 10px auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 2;
+    justify-content: space-between;
+}
+.table-space{
+   flex-basis: 30%;
+   background: #fff;
+   border-radius: 10px;
+   padding: 3rem 1.5rem;
+   flex-wrap: wrap;
+
+}
+.pricing-table h3{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.text-top-bottom h2 {
+    font-size: 4.5rem;
+    font-weight: 400;
+}
+
+
+.pricing-table p{
+    padding-bottom: 1.5rem;
+    font-size: 14px;
+    font-weight: 500;
+}
+.pricing-table ul{
+    list-style: none;
+    padding-left: 0;
+}
+.pricing-table ul h5{
+    font-size: 1rem;
+}
+.pricing-table i{
+    color: var(--primary-color);
+    padding-right: 0.8rem;
+}
+.btn-3{
+    margin-top: 1rem;
+    width: 100%;
+}
+.btn-2{
+    margin-top: 3rem;
+    width: 100%;
+}
+.btn-1{
+    margin-top: 5rem;
+    width: 100%;
+} */
+
+/* pricing-table end  */
+
+/* pricing section design end */
+
+/* privide service section design  */
+.provide-service {
+    background: rgb(26, 15, 66);
+    padding-top: 35rem;
+    margin-top: -28rem;
+    position: relative;
+    
+    color: rgb(255, 255, 255);
+}
+.provide-service h2{
+    font-size: 2.6rem;
+    font-weight: 800;
+}
+.provide-service p{
+    font-size: 1.3rem;
+    padding: 1rem 0;
+    
+}
+/* privide service section design end */
+
+/* securaty section design  */
+.security-section{
+background: #F8F5FF;
+padding: 10rem 0;
+}
+.security-section h2{
+font-size: 2.2rem;
+font-weight: 700;
+}
+.security-section p{
+font-size: 1.2rem;
+font-weight: 400;
+padding-top: 0.8rem;
+}
+.security-section ul {
+    list-style: none;
+    padding-left: 0;
+    /*  */
+}
+.security-section h5{
+    font-size: 1rem;
+    color: var(--header-color);
+}
+.security-section ul li{
+color: var(--primary-color);
+padding-right: 1rem;
+}
+
+.security-section ul li i{
+padding-right: 1rem;
+color: var(--primary-color);
+}
+/* securaty section design end */
+
+/* map sectio design  */
+.section-header{
+    padding: 5rem 0;
+}
+.section-header h2{
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+.section-header p{
+    font-size: 1.4rem;
+    font-weight: 400;
+    max-width: 72%;
+    padding-bottom: 6rem;
+    margin: auto;
+}
+.map-image img{
+    object-fit: cover;
+}
+.map-image{
+    
+    background-image: url(img/Map.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    
+}
+/* brand section design  */
+.brand-section h4{
+    font-size: 1.8rem;
+}
+/* brand section design end */
+
+/* testimonial section design  */
+
+.carousel-item i{
+font-size: 2rem;
+font-weight: 500;
+
+}
+.teem-member{
+    padding-top: 1.5rem;
+}
+.teem-member img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: top;
+}
+.teem-image {
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+.teem-content{
+    margin-left: 2rem;
+}
+.teem-content h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.teem-content p{
+    font-size: 1rem;
+}
+
+
+
+
+.carousel-indicators [data-bs-target] {
+    background-color: var(--primary-color);
+    width: 65px;
+    height: 3px;
+}
+
+.carousel-indicators{
+    justify-content: left;
+    margin-left: 0;
+}
+
+
+
+/* testimonial section design end */
+/* faq section design  */
+.faq-section{
+    padding-bottom: 5rem;
+}
+.faq-header h2{
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 5rem 0;
+    font-weight: 700;
+}
+.accordion-flush .accordion-item .accordion-button {
+    
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.accordion-body{
+    font-size: 1.2rem;
+}
+/* faq section design end */
+
+/* footer section design  */
+.footer-section{
+    padding: 5rem 0;
+    background: rgba(26, 15, 66, 1);
+    color: #fff;
+}
+.sub-headig{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.email-footer i{
+    font-size: 1.2rem;
+    margin-right: 1rem;
+    color: var(--primary-color);
+}
+.phon-footer i{
+    font-size: 1.2rem;
+    margin-right: 1rem;
+    color: var(--primary-color);
+}
+.service ul{
+    padding-left: 0;
+    
+}
+.service ul li{
+    list-style: none;
+    font-size: 1rem;
+    padding: 0.3rem 0;
+    cursor: pointer;
+
+}
+.About ul{
+    padding-left: 0;
+    
+}
+.About ul li{
+    list-style: none;
+    font-size: 1rem;
+    padding: 0.3rem 0;
+    cursor: pointer;
+
+}
+.Address p{
+    font-size: 1.1rem;
+    
+}
+
+.footer-hover{
+    padding: 0.5rem;
+    margin: 0.5rem;
+    font-size: 1rem;
+    border-radius: 100%;
+    line-height: 0.5rem;
+    transition: all .5s;
+    border: 1px solid #fff;
+}
+.footer-hover:hover{
+    background: var(--primary-color);
+    cursor: pointer;
+}
+/* footer section design end */
